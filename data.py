@@ -1,5 +1,6 @@
 import csv
 
+# data_source : https://docs.google.com/spreadsheets/d/1XIj6yoTY8Unv-G1_2UcqNLa_PoeWPrE_v3p2Dx8Kdyg/edit?usp=sharing
 def LoadData():
 	data = []
 	with open('data.csv', newline='') as csvfile:
